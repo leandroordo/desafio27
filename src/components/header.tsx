@@ -13,7 +13,7 @@ function Header() {
       <Container>
         <Navbar.Brand href="/">
           <img
-            src="logo.svg"
+            src="/logo.svg"
             width="148"
             height="39"
             className="d-inline-block align-top"

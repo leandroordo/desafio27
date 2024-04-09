@@ -18,7 +18,9 @@ function Catalog() {
 
   return (
     <Container>
-      <h1>Nuestro catálogo de películas</h1>
+      <h1 className="display-6 text-start text-uppercase text-white py-3">
+        Nuestro catálogo de películas
+      </h1>
       <Row lg={3} md={2} sm={2} xs={1}>
         {movies &&
           movies.map((movie) => (
